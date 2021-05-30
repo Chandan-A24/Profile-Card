@@ -29,7 +29,6 @@ html {
 }
 
 .bg {
-    background-image: url(/images/bg-pattern-card.svg);
     position: absolute;
     width: 351px;
     height: 150px;
