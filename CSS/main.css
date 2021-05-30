@@ -1,0 +1,139 @@
+html {
+    background-color: hsl(185, 75%, 39%);
+    box-sizing: border-box;
+}
+
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
+
+.bg_top{
+    position: fixed;
+    left: -250px;
+    top: -550px;
+    z-index: 1;
+    opacity: 100%;
+}
+
+.container {
+    position: relative;
+    width: 351px;
+    height: 373px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 170px 540px 170px 540px;
+    border-radius: 13px;
+    z-index: 3;
+    box-shadow: hsl(227, 10%, 46%);
+}
+
+.bg {
+    background-image: url(/images/bg-pattern-card.svg);
+    position: absolute;
+    width: 351px;
+    height: 150px;
+    z-index: 1;
+    margin-top: 0;
+    margin-bottom: 234px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+.img img{
+    border: solid 4px #fff;
+    border-radius: 48px;
+    position: absolute;
+    right: 127px;
+    left: 127px;
+    top: 93px;
+    bottom: 27px;
+    z-index: 2;
+}
+
+.name {
+    font-size: 18px;
+    font-family: 'Kumbh sans', sans-serif;
+    font-weight: 700;
+    padding-top: 214px;
+    color: hsl(229, 23%, 23%);
+}
+
+.place {
+    font-family: 'Kumbh sans', sans-serif;
+    font-weight: 400;
+    padding-top: 16px;
+    padding-bottom: 56px;
+    opacity: 80%;
+    color:  hsl(227, 10%, 46%);
+}
+
+.line {
+    width: 350px;
+    height: 1px;
+    background: #333;
+    opacity: 20%;
+    
+}
+
+.stats {
+    font-family: 'Kumbh sans', sans-serif;
+    word-spacing: 60px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.stats_name {
+    font-family: 'Kumbh sans', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 27px;
+    word-spacing: 50px;
+    opacity: 100%;
+    color: hsl(0, 0%, 59%);
+}
+
+.age {
+    opacity: 50%;
+}
+
+.attribution {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    position: absolute;
+    width: 350px;;
+    height: 1px;
+    color: #3333;
+    margin-bottom: 90px;
+    margin-top: 285px;
+}
+
+.attribution {
+    font-family: 'Kumbh sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.attribution a {
+    padding: 5px;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 351px;
+        height: 400px;
+        margin: 147px 8px 147px 10px;
+    }
+    
+    .bg {
+        height: 168px;
+    }
+}
+
+.bg_bottom {
+    position: fixed;
+}
